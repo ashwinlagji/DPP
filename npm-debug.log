@@ -1,0 +1,504 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'c:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@2.14.12
+3 info using node@v4.2.4
+4 verbose readDependencies loading dependencies from c:\GitProjects\DPportal\package.json
+5 warn package.json DPPORTAL@0.0.0 No description
+6 warn package.json DPPORTAL@0.0.0 No repository field.
+7 warn package.json DPPORTAL@0.0.0 No README data
+8 warn package.json DPPORTAL@0.0.0 No license field.
+9 verbose install where, deps [ 'c:\\GitProjects\\DPportal',
+9 verbose install   [ 'bcryptjs',
+9 verbose install     'body-parser',
+9 verbose install     'dateformat',
+9 verbose install     'express',
+9 verbose install     'hogan-express',
+9 verbose install     'log4js',
+9 verbose install     'mysql',
+9 verbose install     'pagination' ] ]
+10 verbose install where, peers [ 'c:\\GitProjects\\DPportal', [] ]
+11 verbose installManyTop reading for lifecycle c:\GitProjects\DPportal\package.json
+12 info preinstall DPPORTAL@0.0.0
+13 verbose readDependencies loading dependencies from c:\GitProjects\DPportal\package.json
+14 silly cache add args [ 'dateformat@^1.0.12', null ]
+15 verbose cache add spec dateformat@^1.0.12
+16 silly cache add parsed spec Result {
+16 silly cache add   raw: 'dateformat@^1.0.12',
+16 silly cache add   scope: null,
+16 silly cache add   name: 'dateformat',
+16 silly cache add   rawSpec: '^1.0.12',
+16 silly cache add   spec: '>=1.0.12 <2.0.0',
+16 silly cache add   type: 'range' }
+17 silly addNamed dateformat@>=1.0.12 <2.0.0
+18 verbose addNamed ">=1.0.12 <2.0.0" is a valid semver range for dateformat
+19 silly addNameRange { name: 'dateformat', range: '>=1.0.12 <2.0.0', hasData: false }
+20 silly mapToRegistry name dateformat
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry uri https://registry.npmjs.org/dateformat
+24 verbose addNameRange registry:https://registry.npmjs.org/dateformat not in flight; fetching
+25 silly cache add args [ 'express@4.13.4', null ]
+26 verbose cache add spec express@4.13.4
+27 silly cache add parsed spec Result {
+27 silly cache add   raw: 'express@4.13.4',
+27 silly cache add   scope: null,
+27 silly cache add   name: 'express',
+27 silly cache add   rawSpec: '4.13.4',
+27 silly cache add   spec: '4.13.4',
+27 silly cache add   type: 'version' }
+28 silly addNamed express@4.13.4
+29 verbose addNamed "4.13.4" is a plain semver version for express
+30 silly mapToRegistry name express
+31 silly mapToRegistry using default registry
+32 silly mapToRegistry registry https://registry.npmjs.org/
+33 silly mapToRegistry uri https://registry.npmjs.org/express
+34 verbose addNameVersion registry:https://registry.npmjs.org/express not in flight; fetching
+35 silly cache add args [ 'hogan-express@^0.5.2', null ]
+36 verbose cache add spec hogan-express@^0.5.2
+37 silly cache add parsed spec Result {
+37 silly cache add   raw: 'hogan-express@^0.5.2',
+37 silly cache add   scope: null,
+37 silly cache add   name: 'hogan-express',
+37 silly cache add   rawSpec: '^0.5.2',
+37 silly cache add   spec: '>=0.5.2 <0.6.0',
+37 silly cache add   type: 'range' }
+38 silly addNamed hogan-express@>=0.5.2 <0.6.0
+39 verbose addNamed ">=0.5.2 <0.6.0" is a valid semver range for hogan-express
+40 silly addNameRange { name: 'hogan-express',
+40 silly addNameRange   range: '>=0.5.2 <0.6.0',
+40 silly addNameRange   hasData: false }
+41 silly mapToRegistry name hogan-express
+42 silly mapToRegistry using default registry
+43 silly mapToRegistry registry https://registry.npmjs.org/
+44 silly mapToRegistry uri https://registry.npmjs.org/hogan-express
+45 verbose addNameRange registry:https://registry.npmjs.org/hogan-express not in flight; fetching
+46 silly cache add args [ 'log4js@^0.6.35', null ]
+47 verbose cache add spec log4js@^0.6.35
+48 silly cache add parsed spec Result {
+48 silly cache add   raw: 'log4js@^0.6.35',
+48 silly cache add   scope: null,
+48 silly cache add   name: 'log4js',
+48 silly cache add   rawSpec: '^0.6.35',
+48 silly cache add   spec: '>=0.6.35 <0.7.0',
+48 silly cache add   type: 'range' }
+49 silly addNamed log4js@>=0.6.35 <0.7.0
+50 verbose addNamed ">=0.6.35 <0.7.0" is a valid semver range for log4js
+51 silly addNameRange { name: 'log4js', range: '>=0.6.35 <0.7.0', hasData: false }
+52 silly mapToRegistry name log4js
+53 silly mapToRegistry using default registry
+54 silly mapToRegistry registry https://registry.npmjs.org/
+55 silly mapToRegistry uri https://registry.npmjs.org/log4js
+56 verbose addNameRange registry:https://registry.npmjs.org/log4js not in flight; fetching
+57 silly cache add args [ 'mysql@^2.10.2', null ]
+58 verbose cache add spec mysql@^2.10.2
+59 silly cache add parsed spec Result {
+59 silly cache add   raw: 'mysql@^2.10.2',
+59 silly cache add   scope: null,
+59 silly cache add   name: 'mysql',
+59 silly cache add   rawSpec: '^2.10.2',
+59 silly cache add   spec: '>=2.10.2 <3.0.0',
+59 silly cache add   type: 'range' }
+60 silly addNamed mysql@>=2.10.2 <3.0.0
+61 verbose addNamed ">=2.10.2 <3.0.0" is a valid semver range for mysql
+62 silly addNameRange { name: 'mysql', range: '>=2.10.2 <3.0.0', hasData: false }
+63 silly mapToRegistry name mysql
+64 silly mapToRegistry using default registry
+65 silly mapToRegistry registry https://registry.npmjs.org/
+66 silly mapToRegistry uri https://registry.npmjs.org/mysql
+67 verbose addNameRange registry:https://registry.npmjs.org/mysql not in flight; fetching
+68 silly cache add args [ 'pagination@^0.4.4', null ]
+69 verbose cache add spec pagination@^0.4.4
+70 silly cache add parsed spec Result {
+70 silly cache add   raw: 'pagination@^0.4.4',
+70 silly cache add   scope: null,
+70 silly cache add   name: 'pagination',
+70 silly cache add   rawSpec: '^0.4.4',
+70 silly cache add   spec: '>=0.4.4 <0.5.0',
+70 silly cache add   type: 'range' }
+71 silly addNamed pagination@>=0.4.4 <0.5.0
+72 verbose addNamed ">=0.4.4 <0.5.0" is a valid semver range for pagination
+73 silly addNameRange { name: 'pagination', range: '>=0.4.4 <0.5.0', hasData: false }
+74 silly mapToRegistry name pagination
+75 silly mapToRegistry using default registry
+76 silly mapToRegistry registry https://registry.npmjs.org/
+77 silly mapToRegistry uri https://registry.npmjs.org/pagination
+78 verbose addNameRange registry:https://registry.npmjs.org/pagination not in flight; fetching
+79 silly cache add args [ 'bcryptjs@^2.3.0', null ]
+80 verbose cache add spec bcryptjs@^2.3.0
+81 silly cache add parsed spec Result {
+81 silly cache add   raw: 'bcryptjs@^2.3.0',
+81 silly cache add   scope: null,
+81 silly cache add   name: 'bcryptjs',
+81 silly cache add   rawSpec: '^2.3.0',
+81 silly cache add   spec: '>=2.3.0 <3.0.0',
+81 silly cache add   type: 'range' }
+82 silly addNamed bcryptjs@>=2.3.0 <3.0.0
+83 verbose addNamed ">=2.3.0 <3.0.0" is a valid semver range for bcryptjs
+84 silly addNameRange { name: 'bcryptjs', range: '>=2.3.0 <3.0.0', hasData: false }
+85 silly mapToRegistry name bcryptjs
+86 silly mapToRegistry using default registry
+87 silly mapToRegistry registry https://registry.npmjs.org/
+88 silly mapToRegistry uri https://registry.npmjs.org/bcryptjs
+89 verbose addNameRange registry:https://registry.npmjs.org/bcryptjs not in flight; fetching
+90 silly cache add args [ 'body-parser@^1.15.0', null ]
+91 verbose cache add spec body-parser@^1.15.0
+92 silly cache add parsed spec Result {
+92 silly cache add   raw: 'body-parser@^1.15.0',
+92 silly cache add   scope: null,
+92 silly cache add   name: 'body-parser',
+92 silly cache add   rawSpec: '^1.15.0',
+92 silly cache add   spec: '>=1.15.0 <2.0.0',
+92 silly cache add   type: 'range' }
+93 silly addNamed body-parser@>=1.15.0 <2.0.0
+94 verbose addNamed ">=1.15.0 <2.0.0" is a valid semver range for body-parser
+95 silly addNameRange { name: 'body-parser', range: '>=1.15.0 <2.0.0', hasData: false }
+96 silly mapToRegistry name body-parser
+97 silly mapToRegistry using default registry
+98 silly mapToRegistry registry https://registry.npmjs.org/
+99 silly mapToRegistry uri https://registry.npmjs.org/body-parser
+100 verbose addNameRange registry:https://registry.npmjs.org/body-parser not in flight; fetching
+101 verbose request uri https://registry.npmjs.org/log4js
+102 verbose request no auth needed
+103 info attempt registry request try #1 at 3:53:07 PM
+104 verbose request id 17f153392591a8d7
+105 http request GET https://registry.npmjs.org/log4js
+106 verbose request uri https://registry.npmjs.org/pagination
+107 verbose request no auth needed
+108 info attempt registry request try #1 at 3:53:07 PM
+109 http request GET https://registry.npmjs.org/pagination
+110 verbose request uri https://registry.npmjs.org/bcryptjs
+111 verbose request no auth needed
+112 info attempt registry request try #1 at 3:53:07 PM
+113 http request GET https://registry.npmjs.org/bcryptjs
+114 verbose request uri https://registry.npmjs.org/mysql
+115 verbose request no auth needed
+116 info attempt registry request try #1 at 3:53:07 PM
+117 verbose etag "9PZIQ7F9IEURT8PG81MUF0YZH"
+118 http request GET https://registry.npmjs.org/mysql
+119 verbose request uri https://registry.npmjs.org/dateformat
+120 verbose request no auth needed
+121 info attempt registry request try #1 at 3:53:07 PM
+122 verbose etag "8C2K88L78WY1W8N7A1UCCQ096"
+123 http request GET https://registry.npmjs.org/dateformat
+124 verbose request uri https://registry.npmjs.org/hogan-express
+125 verbose request no auth needed
+126 info attempt registry request try #1 at 3:53:07 PM
+127 verbose etag "CZ4SV3Z3SFVK2IQCLJM4UU3IA"
+128 http request GET https://registry.npmjs.org/hogan-express
+129 verbose request uri https://registry.npmjs.org/express
+130 verbose request no auth needed
+131 info attempt registry request try #1 at 3:53:07 PM
+132 verbose etag "2YIJVQS7RIZN0Z9YZGWGXVYJ4"
+133 http request GET https://registry.npmjs.org/express
+134 verbose request uri https://registry.npmjs.org/body-parser
+135 verbose request no auth needed
+136 info attempt registry request try #1 at 3:53:07 PM
+137 verbose etag "CKT2RJ5F04S2SDZESP3RMG1K1"
+138 http request GET https://registry.npmjs.org/body-parser
+139 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=Parse Error
+140 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=Parse Error
+141 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=Parse Error
+142 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=Parse Error
+143 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=Parse Error
+144 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=Parse Error
+145 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=Parse Error
+146 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=Parse Error
+147 info attempt registry request try #2 at 3:53:17 PM
+148 http request GET https://registry.npmjs.org/pagination
+149 info attempt registry request try #2 at 3:53:17 PM
+150 verbose etag "9PZIQ7F9IEURT8PG81MUF0YZH"
+151 http request GET https://registry.npmjs.org/mysql
+152 info attempt registry request try #2 at 3:53:17 PM
+153 verbose etag "8C2K88L78WY1W8N7A1UCCQ096"
+154 http request GET https://registry.npmjs.org/dateformat
+155 info attempt registry request try #2 at 3:53:17 PM
+156 verbose etag "2YIJVQS7RIZN0Z9YZGWGXVYJ4"
+157 http request GET https://registry.npmjs.org/express
+158 info attempt registry request try #2 at 3:53:17 PM
+159 verbose etag "CZ4SV3Z3SFVK2IQCLJM4UU3IA"
+160 http request GET https://registry.npmjs.org/hogan-express
+161 info attempt registry request try #2 at 3:53:17 PM
+162 http request GET https://registry.npmjs.org/log4js
+163 info attempt registry request try #2 at 3:53:17 PM
+164 http request GET https://registry.npmjs.org/bcryptjs
+165 info attempt registry request try #2 at 3:53:17 PM
+166 verbose etag "CKT2RJ5F04S2SDZESP3RMG1K1"
+167 http request GET https://registry.npmjs.org/body-parser
+168 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=Parse Error
+169 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=Parse Error
+170 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=Parse Error
+171 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=Parse Error
+172 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=Parse Error
+173 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=Parse Error
+174 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=Parse Error
+175 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=Parse Error
+176 info attempt registry request try #3 at 3:54:17 PM
+177 http request GET https://registry.npmjs.org/pagination
+178 info attempt registry request try #3 at 3:54:17 PM
+179 verbose etag "9PZIQ7F9IEURT8PG81MUF0YZH"
+180 http request GET https://registry.npmjs.org/mysql
+181 info attempt registry request try #3 at 3:54:17 PM
+182 verbose etag "8C2K88L78WY1W8N7A1UCCQ096"
+183 http request GET https://registry.npmjs.org/dateformat
+184 info attempt registry request try #3 at 3:54:17 PM
+185 verbose etag "2YIJVQS7RIZN0Z9YZGWGXVYJ4"
+186 http request GET https://registry.npmjs.org/express
+187 info attempt registry request try #3 at 3:54:17 PM
+188 verbose etag "CZ4SV3Z3SFVK2IQCLJM4UU3IA"
+189 http request GET https://registry.npmjs.org/hogan-express
+190 info attempt registry request try #3 at 3:54:17 PM
+191 http request GET https://registry.npmjs.org/log4js
+192 info attempt registry request try #3 at 3:54:17 PM
+193 http request GET https://registry.npmjs.org/bcryptjs
+194 info attempt registry request try #3 at 3:54:17 PM
+195 verbose etag "CKT2RJ5F04S2SDZESP3RMG1K1"
+196 http request GET https://registry.npmjs.org/body-parser
+197 silly get cb [ 304, undefined ]
+198 verbose etag https://registry.npmjs.org/dateformat from cache
+199 verbose get saving dateformat to C:\Users\ashwin_lagji\AppData\Roaming\npm-cache\registry.npmjs.org\dateformat\.cache.json
+200 silly get cb [ 304, undefined ]
+201 verbose etag https://registry.npmjs.org/mysql from cache
+202 verbose get saving mysql to C:\Users\ashwin_lagji\AppData\Roaming\npm-cache\registry.npmjs.org\mysql\.cache.json
+203 silly get cb [ 304, undefined ]
+204 verbose etag https://registry.npmjs.org/hogan-express from cache
+205 verbose get saving hogan-express to C:\Users\ashwin_lagji\AppData\Roaming\npm-cache\registry.npmjs.org\hogan-express\.cache.json
+206 silly get cb [ 304, undefined ]
+207 verbose etag https://registry.npmjs.org/express from cache
+208 verbose get saving express to C:\Users\ashwin_lagji\AppData\Roaming\npm-cache\registry.npmjs.org\express\.cache.json
+209 silly get cb [ 304, undefined ]
+210 verbose etag https://registry.npmjs.org/body-parser from cache
+211 verbose get saving body-parser to C:\Users\ashwin_lagji\AppData\Roaming\npm-cache\registry.npmjs.org\body-parser\.cache.json
+212 silly addNameRange number 2 { name: 'hogan-express', range: '>=0.5.2 <0.6.0', hasData: true }
+213 silly addNameRange versions [ 'hogan-express',
+213 silly addNameRange   [ '0.1.0',
+213 silly addNameRange     '0.2.0',
+213 silly addNameRange     '0.2.1',
+213 silly addNameRange     '0.2.2',
+213 silly addNameRange     '0.3.0',
+213 silly addNameRange     '0.3.1',
+213 silly addNameRange     '0.3.2',
+213 silly addNameRange     '0.3.3',
+213 silly addNameRange     '0.4.0',
+213 silly addNameRange     '0.4.1',
+213 silly addNameRange     '0.5.0',
+213 silly addNameRange     '0.5.1',
+213 silly addNameRange     '0.5.2' ] ]
+214 silly addNamed hogan-express@0.5.2
+215 verbose addNamed "0.5.2" is a plain semver version for hogan-express
+216 silly addNameRange number 2 { name: 'mysql', range: '>=2.10.2 <3.0.0', hasData: true }
+217 silly addNameRange versions [ 'mysql',
+217 silly addNameRange   [ '0.1.0',
+217 silly addNameRange     '0.2.0',
+217 silly addNameRange     '0.3.0',
+217 silly addNameRange     '0.4.0',
+217 silly addNameRange     '0.5.0',
+217 silly addNameRange     '0.6.0',
+217 silly addNameRange     '0.7.0',
+217 silly addNameRange     '0.8.0',
+217 silly addNameRange     '0.9.0',
+217 silly addNameRange     '0.9.1',
+217 silly addNameRange     '0.9.2',
+217 silly addNameRange     '0.9.3',
+217 silly addNameRange     '0.9.4',
+217 silly addNameRange     '0.9.5',
+217 silly addNameRange     '0.9.6',
+217 silly addNameRange     '2.0.0-alpha',
+217 silly addNameRange     '2.0.0-alpha2',
+217 silly addNameRange     '2.0.0-alpha3',
+217 silly addNameRange     '2.0.0-alpha4',
+217 silly addNameRange     '2.0.0-alpha5',
+217 silly addNameRange     '2.0.0-alpha6',
+217 silly addNameRange     '2.0.0-alpha7',
+217 silly addNameRange     '2.0.0-alpha8',
+217 silly addNameRange     '2.0.0-alpha9',
+217 silly addNameRange     '2.0.0-rc1',
+217 silly addNameRange     '2.0.0-rc2',
+217 silly addNameRange     '2.0.0',
+217 silly addNameRange     '2.0.1',
+217 silly addNameRange     '2.1.0',
+217 silly addNameRange     '2.1.1',
+217 silly addNameRange     '2.2.0',
+217 silly addNameRange     '2.3.0',
+217 silly addNameRange     '2.3.1',
+217 silly addNameRange     '2.3.2',
+217 silly addNameRange     '2.4.0',
+217 silly addNameRange     '2.4.1',
+217 silly addNameRange     '2.4.2',
+217 silly addNameRange     '2.4.3',
+217 silly addNameRange     '2.5.0',
+217 silly addNameRange     '2.5.1',
+217 silly addNameRange     '2.5.2',
+217 silly addNameRange     '2.5.3',
+217 silly addNameRange     '2.5.4',
+217 silly addNameRange     '2.5.5',
+217 silly addNameRange     '2.6.0',
+217 silly addNameRange     '2.6.1',
+217 silly addNameRange     '2.6.2',
+217 silly addNameRange     '2.7.0',
+217 silly addNameRange     '2.8.0',
+217 silly addNameRange     '2.9.0',
+217 silly addNameRange     '2.10.0',
+217 silly addNameRange     '2.10.1',
+217 silly addNameRange     '2.10.2' ] ]
+218 silly addNamed mysql@2.10.2
+219 verbose addNamed "2.10.2" is a plain semver version for mysql
+220 silly addNameRange number 2 { name: 'dateformat', range: '>=1.0.12 <2.0.0', hasData: true }
+221 silly addNameRange versions [ 'dateformat',
+221 silly addNameRange   [ '0.9.0-1.2.3',
+221 silly addNameRange     '1.0.0-1.2.3',
+221 silly addNameRange     '1.0.1-1.2.3',
+221 silly addNameRange     '1.0.2-1.2.3',
+221 silly addNameRange     '1.0.3-1.2.3',
+221 silly addNameRange     '1.0.4-1.2.3',
+221 silly addNameRange     '1.0.5-1.2.3',
+221 silly addNameRange     '1.0.6-1.2.3',
+221 silly addNameRange     '1.0.7-1.2.3',
+221 silly addNameRange     '1.0.8-1.2.3',
+221 silly addNameRange     '1.0.8',
+221 silly addNameRange     '1.0.9',
+221 silly addNameRange     '1.0.10',
+221 silly addNameRange     '1.0.11',
+221 silly addNameRange     '1.0.12' ] ]
+222 silly addNamed dateformat@1.0.12
+223 verbose addNamed "1.0.12" is a plain semver version for dateformat
+224 silly addNameRange number 2 { name: 'body-parser', range: '>=1.15.0 <2.0.0', hasData: true }
+225 silly addNameRange versions [ 'body-parser',
+225 silly addNameRange   [ '1.0.0',
+225 silly addNameRange     '1.0.1',
+225 silly addNameRange     '1.0.2',
+225 silly addNameRange     '1.1.0',
+225 silly addNameRange     '1.1.1',
+225 silly addNameRange     '1.1.2',
+225 silly addNameRange     '1.2.0',
+225 silly addNameRange     '1.2.1',
+225 silly addNameRange     '1.2.2',
+225 silly addNameRange     '1.3.0',
+225 silly addNameRange     '1.3.1',
+225 silly addNameRange     '1.4.0',
+225 silly addNameRange     '1.4.1',
+225 silly addNameRange     '1.4.2',
+225 silly addNameRange     '1.4.3',
+225 silly addNameRange     '1.5.0',
+225 silly addNameRange     '1.5.1',
+225 silly addNameRange     '1.5.2',
+225 silly addNameRange     '1.6.0',
+225 silly addNameRange     '1.6.1',
+225 silly addNameRange     '1.6.2',
+225 silly addNameRange     '1.6.3',
+225 silly addNameRange     '1.6.4',
+225 silly addNameRange     '1.6.5',
+225 silly addNameRange     '1.6.6',
+225 silly addNameRange     '1.6.7',
+225 silly addNameRange     '1.7.0',
+225 silly addNameRange     '1.8.0',
+225 silly addNameRange     '1.8.1',
+225 silly addNameRange     '1.8.2',
+225 silly addNameRange     '1.8.3',
+225 silly addNameRange     '1.8.4',
+225 silly addNameRange     '1.9.0',
+225 silly addNameRange     '1.9.1',
+225 silly addNameRange     '1.9.2',
+225 silly addNameRange     '1.9.3',
+225 silly addNameRange     '1.10.0',
+225 silly addNameRange     '1.10.1',
+225 silly addNameRange     '1.10.2',
+225 silly addNameRange     '1.11.0',
+225 silly addNameRange     '1.12.0',
+225 silly addNameRange     '1.12.1',
+225 silly addNameRange     '1.12.2',
+225 silly addNameRange     '1.12.3',
+225 silly addNameRange     '1.12.4',
+225 silly addNameRange     '1.13.0',
+225 silly addNameRange     '1.13.1',
+225 silly addNameRange     '1.13.2',
+225 silly addNameRange     '1.13.3',
+225 silly addNameRange     '1.14.0',
+225 silly addNameRange     '1.14.1',
+225 silly addNameRange     '1.14.2',
+225 silly addNameRange     '1.15.0' ] ]
+226 silly addNamed body-parser@1.15.0
+227 verbose addNamed "1.15.0" is a plain semver version for body-parser
+228 silly cache afterAdd mysql@2.10.2
+229 verbose afterAdd C:\Users\ashwin_lagji\AppData\Roaming\npm-cache\mysql\2.10.2\package\package.json not in flight; writing
+230 silly mapToRegistry name body-parser
+231 silly mapToRegistry using default registry
+232 silly mapToRegistry registry https://registry.npmjs.org/
+233 silly mapToRegistry uri https://registry.npmjs.org/body-parser
+234 verbose addRemoteTarball https://registry.npmjs.org/body-parser/-/body-parser-1.15.0.tgz not in flight; adding
+235 verbose addRemoteTarball [ 'https://registry.npmjs.org/body-parser/-/body-parser-1.15.0.tgz',
+235 verbose addRemoteTarball   '8168abaeaf9e77e300f7b3aef4df4b46e9b21b35' ]
+236 verbose afterAdd C:\Users\ashwin_lagji\AppData\Roaming\npm-cache\mysql\2.10.2\package\package.json written
+237 silly cache afterAdd hogan-express@0.5.2
+238 verbose afterAdd C:\Users\ashwin_lagji\AppData\Roaming\npm-cache\hogan-express\0.5.2\package\package.json not in flight; writing
+239 info retry fetch attempt 1 at 3:54:17 PM
+240 info attempt registry request try #1 at 3:54:17 PM
+241 http fetch GET https://registry.npmjs.org/body-parser/-/body-parser-1.15.0.tgz
+242 silly cache afterAdd dateformat@1.0.12
+243 verbose afterAdd C:\Users\ashwin_lagji\AppData\Roaming\npm-cache\dateformat\1.0.12\package\package.json not in flight; writing
+244 verbose afterAdd C:\Users\ashwin_lagji\AppData\Roaming\npm-cache\dateformat\1.0.12\package\package.json written
+245 verbose afterAdd C:\Users\ashwin_lagji\AppData\Roaming\npm-cache\hogan-express\0.5.2\package\package.json written
+246 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=Parse Error
+247 silly cache afterAdd express@4.13.4
+248 verbose afterAdd C:\Users\ashwin_lagji\AppData\Roaming\npm-cache\express\4.13.4\package\package.json not in flight; writing
+249 verbose afterAdd C:\Users\ashwin_lagji\AppData\Roaming\npm-cache\express\4.13.4\package\package.json written
+250 info attempt registry request try #2 at 3:54:27 PM
+251 http fetch GET https://registry.npmjs.org/body-parser/-/body-parser-1.15.0.tgz
+252 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=Parse Error
+253 info attempt registry request try #3 at 3:55:27 PM
+254 http fetch GET https://registry.npmjs.org/body-parser/-/body-parser-1.15.0.tgz
+255 error fetch failed https://registry.npmjs.org/body-parser/-/body-parser-1.15.0.tgz
+256 warn retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=Parse Error
+257 info retry fetch attempt 2 at 3:55:37 PM
+258 info attempt registry request try #1 at 3:55:37 PM
+259 http fetch GET https://registry.npmjs.org/body-parser/-/body-parser-1.15.0.tgz
+260 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=Parse Error
+261 info attempt registry request try #2 at 3:55:47 PM
+262 http fetch GET https://registry.npmjs.org/body-parser/-/body-parser-1.15.0.tgz
+263 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=Parse Error
+264 info attempt registry request try #3 at 3:56:47 PM
+265 http fetch GET https://registry.npmjs.org/body-parser/-/body-parser-1.15.0.tgz
+266 error fetch failed https://registry.npmjs.org/body-parser/-/body-parser-1.15.0.tgz
+267 warn retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=Parse Error
+268 info retry fetch attempt 3 at 3:57:47 PM
+269 info attempt registry request try #1 at 3:57:47 PM
+270 http fetch GET https://registry.npmjs.org/body-parser/-/body-parser-1.15.0.tgz
+271 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=Parse Error
+272 info attempt registry request try #2 at 3:57:57 PM
+273 http fetch GET https://registry.npmjs.org/body-parser/-/body-parser-1.15.0.tgz
+274 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=Parse Error
+275 info attempt registry request try #3 at 3:58:57 PM
+276 http fetch GET https://registry.npmjs.org/body-parser/-/body-parser-1.15.0.tgz
+277 http fetch 200 https://registry.npmjs.org/body-parser/-/body-parser-1.15.0.tgz
+278 silly fetchAndShaCheck shasum 8168abaeaf9e77e300f7b3aef4df4b46e9b21b35
+279 verbose addTmpTarball C:\Users\ASHWIN~1\AppData\Local\Temp\npm-5272-b54a8d9e\registry.npmjs.org\body-parser\-\body-parser-1.15.0.tgz not in flight; adding
+280 verbose addTmpTarball already have metadata; skipping unpack for body-parser@1.15.0
+281 silly cache afterAdd body-parser@1.15.0
+282 verbose afterAdd C:\Users\ashwin_lagji\AppData\Roaming\npm-cache\body-parser\1.15.0\package\package.json not in flight; writing
+283 verbose afterAdd C:\Users\ashwin_lagji\AppData\Roaming\npm-cache\body-parser\1.15.0\package\package.json written
+284 verbose stack Error: tunneling socket could not be established, cause=Parse Error
+284 verbose stack     at ClientRequest.onError (c:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:174:17)
+284 verbose stack     at ClientRequest.g (events.js:260:16)
+284 verbose stack     at emitOne (events.js:77:13)
+284 verbose stack     at ClientRequest.emit (events.js:169:7)
+284 verbose stack     at Socket.socketOnData (_http_client.js:310:9)
+284 verbose stack     at emitOne (events.js:77:13)
+284 verbose stack     at Socket.emit (events.js:169:7)
+284 verbose stack     at readableAddChunk (_stream_readable.js:146:16)
+284 verbose stack     at Socket.Readable.push (_stream_readable.js:110:10)
+284 verbose stack     at TCP.onread (net.js:523:20)
+285 verbose cwd c:\GitProjects\DPportal
+286 error Windows_NT 6.1.7601
+287 error argv "c:\\Program Files\\nodejs\\node.exe" "c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+288 error node v4.2.4
+289 error npm  v2.14.12
+290 error code ECONNRESET
+291 error network tunneling socket could not be established, cause=Parse Error
+291 error network This is most likely not a problem with npm itself
+291 error network and is related to network connectivity.
+291 error network In most cases you are behind a proxy or have bad network settings.
+291 error network
+291 error network If you are behind a proxy, please make sure that the
+291 error network 'proxy' config is set properly.  See: 'npm help config'
+292 verbose exit [ 1, true ]

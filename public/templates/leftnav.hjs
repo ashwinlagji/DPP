@@ -1,0 +1,341 @@
+<div class="col-sm-3 col-md-3">
+                <div class="panel-group" id="accordion">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                <a href="#collapseOne"><span class="glyphicon glyphicon-user"></span>Resource Management</a>
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                <a href="#collapseTwo"><span class="glyphicon glyphicon-cog"></span>Operations</a>
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree"><span class="glyphicon glyphicon-share"></span>Delivery Partner</a>
+                            </h3>
+                        </div>
+                        <div id="collapseThree" class="panel-collapse collapse">                            
+                            <div class="panel-body" id="accordion2">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion2" href="#collapseThreeOne" onclick="optDP1();"><span class="glyphicon glyphicon-plus-sign" id="dp1"></span>DP-1</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseThreeOne" class="panel-collapse collapse">
+                                        <div class="panel-body">
+
+                                            <table class="table">
+                                                <tr>
+                                                    <td>
+                                                        <a href="#CaseStudies">Case Studies</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <a href="#Offerings">Offerings</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <a href="#BestPractices">Best Practices</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <a href="#Articles">Articles</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <a href="#Whitepaper">Whitepaper</a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion2" href="#collapseThreeTwo" onclick="optDP2();"><span class="glyphicon glyphicon-plus-sign" id="dp2"></span>DP-2</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseThreeTwo" class="panel-collapse collapse">
+                                        <div class="panel-body">
+
+                                            <table class="table">
+                                                <tr>
+                                                    <td>
+                                                        <a href="#CaseStudies">Case Studies</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <a href="#Offerings">Offerings</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <a href="#BestPractices">Best Practices</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <a href="#Articles">Articles</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <a href="#Whitepaper">Whitepaper</a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion2" href="#collapseThreeThree" onclick="optDP3();"><span class="glyphicon glyphicon-plus-sign" id="dp3"></span>DP-3</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseThreeThree" class="panel-collapse collapse">
+                                        <div class="panel-body">
+
+                                            <table class="table">
+                                                <tr>
+                                                    <td>
+                                                        <a href="#CaseStudies">Case Studies</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <a href="#Offerings">Offerings</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <a href="#BestPractices">Best Practices</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <a href="#Articles">Articles</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <a href="#Whitepaper">Whitepaper</a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion2" href="#collapseThreeFour" onclick="optDP4();"><span class="glyphicon glyphicon-plus-sign" id="dp4"></span>DP-4</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseThreeFour" class="panel-collapse collapse">
+                                        <div class="panel-body">
+
+                                            <table class="table">
+                                                <tr>
+                                                    <td>
+                                                        <a href="#CaseStudies">Case Studies</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <a href="#Offerings">Offerings</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <a href="#BestPractices">Best Practices</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <a href="#Articles">Articles</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <a href="#Whitepaper">Whitepaper</a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour"><span class="glyphicon glyphicon-briefcase"></span>Business Development</a>
+                            </h3>
+                        </div>
+                        <div id="collapseFour" class="panel-collapse collapse">                            
+                            <div class="panel-body" id="accordion3">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion3" href="#collapseBDThreeOne" onclick="optBD1();"><span class="glyphicon glyphicon-plus-sign" id="bd1"></span>BD-1</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseBDThreeOne" class="panel-collapse collapse">
+                                        <div class="panel-body">
+
+                                            <table class="table">
+                                                <tr>
+                                                    <td>
+                                                        <a href="#CaseStudies">Case Studies</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <a href="#Offerings">Offerings</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <a href="#BestPractices">Best Practices</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <a href="#Articles">Articles</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <a href="#Whitepaper">Whitepaper</a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion3" href="#collapseBDThreeTwo" onclick="optBD2();"><span class="glyphicon glyphicon-plus-sign" id="bd2"></span>BD-2</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseBDThreeTwo" class="panel-collapse collapse">
+                                        <div class="panel-body">
+
+                                            <table class="table">
+                                                <tr>
+                                                    <td>
+                                                        <a href="#CaseStudies">Case Studies</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <a href="#Offerings">Offerings</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <a href="#BestPractices">Best Practices</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <a href="#Articles">Articles</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <a href="#Whitepaper">Whitepaper</a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion3" href="#collapseBDThreeThree" onclick="optBD3();"><span class="glyphicon glyphicon-plus-sign" id="bd3"></span>BD-3</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseBDThreeThree" class="panel-collapse collapse">
+                                        <div class="panel-body">
+
+                                            <table class="table">
+                                                <tr>
+                                                    <td>
+                                                        <a href="#CaseStudies">Case Studies</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <a href="#Offerings">Offerings</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <a href="#BestPractices">Best Practices</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <a href="#Articles">Articles</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <a href="#Whitepaper">Whitepaper</a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion3" href="#collapseBDThreeFour" onclick="optBD4();"><span class="glyphicon glyphicon-plus-sign" id="bd4"></span>BD-4</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseBDThreeFour" class="panel-collapse collapse">
+                                        <div class="panel-body">
+
+                                            <table class="table">
+                                                <tr>
+                                                    <td>
+                                                        <a href="#CaseStudies">Case Studies</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <a href="#Offerings">Offerings</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <a href="#BestPractices">Best Practices</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <a href="#Articles">Articles</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <a href="#Whitepaper">Whitepaper</a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>

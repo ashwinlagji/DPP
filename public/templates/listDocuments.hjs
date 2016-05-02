@@ -1,0 +1,15 @@
+{{>header}}
+
+<!-- Left Navigation Steve col-sm-4 col-md-4-->
+ <div class="container-fluid" style="margin-top:11px;">
+      <div class="row">
+	  	{{>leftnav}}
+		<div class="col-sm-9 col-md-9">
+		{{{DisplayData}}}
+		</div>
+
+		</div>
+	</div>
+</div>
+
+{{>footer}}

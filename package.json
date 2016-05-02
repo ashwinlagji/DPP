@@ -1,0 +1,14 @@
+{
+  "name": "DPPORTAL",
+  "version": "0.0.0",
+  "dependencies": {
+    "bcryptjs": "^2.3.0",
+    "body-parser": "^1.15.0",
+    "dateformat": "^1.0.12",
+    "express": "4.13.4",
+    "hogan-express": "^0.5.2",
+    "log4js": "^0.6.35",
+    "mysql": "^2.10.2",
+    "pagination": "^0.4.4"
+  }
+}

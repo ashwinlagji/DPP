@@ -1,0 +1,95 @@
+{{>header}}
+
+<!-- Left Navigation Steve col-sm-4 col-md-4-->
+ <div class="container-fluid" style="margin-top:11px;">
+      <div class="row">
+{{>leftnav}}
+
+<div class="col-sm-9 col-md-9">
+<!-- Data to come from other partials-->
+			<div class="row">
+				<div class="col-sm-6 col-md-6">
+					<div class="thumbnail">
+					  <img src="/images/caseStudies.jpg" alt="Case Studies" style="images">
+					  <div class="caption">
+						<h3>Case Studies</h3>
+						<p>TBD... Brief Description</p>
+						<p><a href="/listDocuments/serviceId/{{serviceId}}/categoryId/{{categoryId}}/docTypeId/1?page=1" class="btn btn-primary" role="button">View Studies</a></p>
+					  </div>
+					</div>
+				  </div>
+   
+
+				 <div class="col-sm-6 col-md-6">
+					<div class="thumbnail">
+					  <img src="/images/our-offerings.jpg" alt="Offerings" style="images">
+					  <div class="caption">
+						<h3>Our Offerings</h3>
+						<p>TBD... Brief Description</p>
+						<p><a href="/listDocuments/serviceId/{{serviceId}}/categoryId/{{categoryId}}/docTypeId/2?page=1"  class="btn btn-primary" role="button">View Offerings</a> </p>
+					  </div>
+					</div>
+				  </div>
+		</div>
+		<div class="row">
+		  <div class="col-sm-6 col-md-6">
+			<div class="thumbnail">
+			  <img src="/images/bestpractice.jpg" alt="Best Practices">
+			  <div class="caption">
+				<h3>Best Practices</h3>
+				<p>TBD... Brief Description</p>
+				<p><a href="/listDocuments/serviceId/{{serviceId}}/categoryId/{{categoryId}}/docTypeId/3?page=1"  class="btn btn-primary" role="button">View Best Practices</a> </p>
+			  </div>
+			</div>
+		  </div>
+		   <div class="col-sm-6 col-md-6">
+			<div class="thumbnail">
+			  <img src="/images/Articles.jpg" alt="Articles">
+			  <div class="caption">
+				<h3>Articles</h3>
+				 <p>TBD... Brief Description</p>
+				 <p><a href="/listDocuments/serviceId/{{serviceId}}/categoryId/{{categoryId}}/docTypeId/4?page=1"  class="btn btn-primary" role="button">Articles</a> </p>
+			  </div>
+			</div>
+		  </div>
+ </div>
+ 
+
+
+<div class="row">
+  <div class="col-sm-6 col-md-6">
+    <div class="thumbnail">
+      <img src="/images/white-papers.jpg" alt="White Papers">
+      <div class="caption">
+        <h3>White Papers</h3>
+        <p>TBD... Brief Description</p>
+         <p><a href="/listDocuments/serviceId/{{serviceId}}/categoryId/{{categoryId}}/docTypeId/5?page=1"  class="btn btn-primary" role="button">White Papers</a></p>
+      </div>
+    </div>
+  </div>
+  
+  
+  
+</div>
+  
+  <!-- End of Partial Data -->
+  
+  </div>
+  
+  <!-- End of Partial Data -->
+       </div>
+	 
+	 
+	 </div>
+		
+	</div>
+
+
+
+
+
+
+
+ 
+{{>footer}}
+

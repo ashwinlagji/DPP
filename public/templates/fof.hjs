@@ -1,0 +1,43 @@
+{{>header}}
+
+
+
+<div class="col-sm-12 col-md-12"  style="text-align:center;">
+	<div class="row">
+		<div class="col-sm-12 col-md-12">
+			 <img src="/images/404.png" alt="File Not Found" style="text-align:center;" width="460" height="345">
+		</div>
+	</div>
+	<div class="row">
+			<div class="col-sm-12 col-md-12">
+				<!-- Spacer -->
+			</div>
+	</div>
+			<!-- End of Changes Steve -->
+
+
+<!-- Will be common for all -->
+  
+  <!-- Page gination if required -->
+			
+			 
+<!-- End of Changes Steve -->
+  
+  
+</div>
+  
+  <!-- End of Partial Data -->
+       </div>
+	 
+
+
+
+
+ 
+{{>footer}}
+
+
+
+
+
+

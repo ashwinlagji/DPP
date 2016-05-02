@@ -1,0 +1,90 @@
+{{>header}}
+
+<!-- Left Navigation Steve col-sm-4 col-md-4-->
+ <div class="container-fluid" style="margin-top:11px;">
+      <div class="row">
+{{>leftnav}}
+
+<div class="col-sm-9 col-md-9">
+			<!-- Data to come from other partials-->
+			<!-- Page Sub heder/ Bread Crumb -->
+			<div class="row">
+				<div class="col-sm-12 col-md-12">
+					<h3 class="subheader"> Business Development:</h3>
+				</div>
+			</div>
+			 <div class="row">
+				<div class="col-sm-12 col-md-12">
+					<!-- Spacer -->
+				</div>
+			</div>
+			<!-- End of Changes Steve -->
+			
+			<div class="row">
+				<div class="col-sm-12 col-md-12">
+					<p>Business development (BD) comprises a number of tasks and processes generally aiming at developing and implementing growth opportunities within and between organizations.It is a subset of the fields of business, commerce and organizational theory. Business development is the creation of long-term value for an organization from customers, markets, and relationships.</p>
+				</div>
+			</div>
+			 <div class="row">
+				<div class="col-sm-12 col-md-12">
+					<!-- Spacer -->
+				</div>
+			</div>
+			
+			
+			<div class="row">
+				<div class="col-sm-12 col-md-12">
+			 <img src="/images/BDImage.jpg" alt="Business Development" width="460" height="345">
+				</div>
+			</div>
+	<div class="row">
+				<div class="col-sm-12 col-md-12">
+					<!-- Spacer -->
+				</div>
+			</div>
+  			<div class="row">
+				<div class="col-sm-12 col-md-12">
+					<!-- Spacer -->
+				</div>
+			</div>
+			
+			
+			<div class="row">
+				<div class="col-sm-12 col-md-12">
+					<!-- Spacer -->
+				</div>
+			</div>
+  
+  <!-- Page gination if required -->
+			
+			 
+<!-- End of Changes Steve -->
+  
+  
+</div>
+  
+  <!-- End of Partial Data -->
+       </div>
+	 
+	 
+	 </div>
+		
+	</div>
+
+
+
+<div class="container">
+  <br>
+  
+</div>
+
+
+
+ 
+{{>footer}}
+
+
+
+
+
+
